@@ -1,0 +1,23 @@
+/* SkillsLanguage.css */
+.skills-item-container {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.skills-heading {
+  padding: 1.25rem;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #1f2937; /* Equivalent to bg-gray-800 */
+  border-radius: 0.125rem;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills-bar {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  background-color: #55e6a5; /* Accent color */
+}

@@ -1,0 +1,47 @@
+/* SkillsItem.css */
+.skills-item {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .skills-item {
+    margin-bottom: 8rem;
+  }
+}
+
+.skills-year {
+  padding: 0.9rem 2rem;
+  color: #55e6a5;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #55e6a5;
+}
+
+.skills-title {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  color: white;
+}
+
+@media (min-width: 640px) {
+  .skills-title {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skills-title {
+    font-size: 30px;
+  }
+}
+
+.skills-description {
+  color: #aaaaaa;
+  font-weight: normal;
+  width: 80%;
+  font-size: 17px;
+  opacity: 0.8;
+}

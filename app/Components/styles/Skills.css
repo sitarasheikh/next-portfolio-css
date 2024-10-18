@@ -1,0 +1,37 @@
+/* Skills.css */
+.skills-section {
+  background-color: #09101a;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .skills-section {
+    padding-top: 8rem;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.highlight-text {
+  color: #fbbf24; /* Yellow for highlighted text */
+}
+
+.skills-grid {
+  width: 80%;
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

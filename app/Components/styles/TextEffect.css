@@ -1,0 +1,14 @@
+/* TextEffect.css */
+.text-effect {
+  font-size: 2rem; /* Base font size */
+  color: #55e6a5; /* Text color */
+  font-weight: bold; /* Font weight */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .text-effect {
+    font-size: 3rem; /* Font size for medium screens and up */
+  }
+}

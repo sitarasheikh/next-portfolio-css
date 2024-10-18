@@ -1,0 +1,61 @@
+/* Projects.css */
+.projects-section {
+  background-color: #02050a;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .projects-section {
+    padding-top: 8rem;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.highlight-text {
+  color: #fbbf24; /* Yellow for highlighted text */
+}
+
+.projects-grid {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.project-item {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.project-item:hover {
+  transform: translateY(-1.5rem);
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}

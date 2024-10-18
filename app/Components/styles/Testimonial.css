@@ -1,0 +1,28 @@
+/* Testimonial.css */
+.testimonial-section {
+  background-color: #02050a;
+  padding-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .testimonial-section {
+    padding-top: 8rem;
+  }
+}
+
+.testimonial-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-heading .highlight {
+  color: #fbbf24; /* Equivalent to text-yellow-400 */
+}
+
+.testimonial-container {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  width: 80%;
+  margin: 0 auto;
+}
